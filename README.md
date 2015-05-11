@@ -22,3 +22,27 @@
   $ mkdir <自分の名前(小文字英字)>
   $ cd <自分の名前(小文字英字)>
   ```
+
+
+  template.mdを自分用のディレクトリにコピーしてファイル名を変更(フォーマット例：schedule.md)して使用してください。
+
+- Step.3 リモートリポジトリにアップロード
+
+  __注意!! 現在のブランチがmasterでないか確認！__
+  `$ git branch`
+
+  ```
+  $ git add .
+  $ git commit -m "add my Schedule"
+  $ git push origin <自分の名前(小文字英字)>
+  ```
+
+- Step.4 [GitHub](https://github.com/MinoruNakazawa/ubiq_ex)上での操作
+
+  Compare & pull requestをクリック
+
+  プルリクエストのコメントを書く(例：スケジュールの追加)
+
+  自分のブランチからmasterブランチに対してPull requestの作成
+
+  __注意!! Pull requestをマージした後に自分用のリモートブランチは消さない！__
