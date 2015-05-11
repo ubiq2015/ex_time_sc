@@ -16,8 +16,8 @@
   
 
   ```
-  $ git clone https://github.com/MinoruNakazawa/ubiq_ex.git
-  $ cd progress
+  $ git clone https://github.com/ubiq2015/ex_time_sc.git
+  $ cd ex_time_sc
   $ git checkout -b <自分の名前(小文字英字)>
   $ mkdir <自分の名前(小文字英字)>
   $ cd <自分の名前(小文字英字)>
